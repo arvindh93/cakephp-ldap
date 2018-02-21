@@ -57,7 +57,7 @@ Setup Ldap authentication config in Controller
         $this->loadComponent('Auth', [
             'storage' => 'Memory',
             'authenticate', [
-                LdapUtility/Ldap => [
+                'LdapUtility.Ldap' => [
 					'host' => 'ldap.example.com',
 			        'port' => 389,
 			        'baseDn' => 'dc=example,dc=com',
